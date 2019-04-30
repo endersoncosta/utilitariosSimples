@@ -1,0 +1,68 @@
+input[type="radio"]+.fa-dot-circle-o:before,
+input[type="radio"]+label>.fa-dot-circle-o:before,
+input[type="radio"]+.fa-check-circle-o:before,
+input[type="radio"]+label>.fa-check-circle-o:before {
+    padding: 5px 10px 5px 15px;
+}
+
+input[type="radio"]+label {
+    width: 100%;
+    border-radius: 23px;
+    border: 2px solid rgba(81, 100, 139, 0.3);
+    padding: 10px 5px;
+    display: flex;
+    font-size: 14px;
+    color: rgba(81, 100, 139, 1);
+    letter-spacing: 0.015em;
+    vertical-align: middle;
+
+}
+
+input[type="radio"]:checked+label {
+    border-color: rgba(85, 124, 255, 1);
+    background-color: rgba(85, 124, 255, 1);
+    color: #fff;
+}
+
+
+.hide {
+    display: none;
+}
+
+.fa-check-circle {
+    color: #557CFF !important;
+}
+
+input[type="radio"]+.fa,
+input[type="radio"]+label>.fa {
+    cursor: pointer;
+}
+
+input[type="radio"]+.fa-check-circle:before,
+input[type="radio"]+label>.fa-check-circle:before {
+    content: "\f111";
+}
+
+/* .fa-circle */
+input[type="radio"]+.fa-dot-circle-o:before,
+input[type="radio"]+label>.fa-dot-circle-o:before,
+input[type="radio"]+.fa-check-circle-o:before,
+input[type="radio"]+label>.fa-check-circle-o:before {
+    content: "\f111";
+    height: 20px;
+    font-size: 20px;
+    color: rgb(81, 100, 139);
+}
+
+/* .fa-circle-o */
+input[type="radio"]+.fa-circle:before,
+input[type="radio"]+label>.fa-circle:before {
+    content: "\f111";
+}
+
+/* .fa-circle-thin */
+input[type="radio"]:checked+.fa-dot-circle-o:before,
+input[type="radio"]:checked+label>.fa-dot-circle-o:before {
+    content: "\f192";
+    color: #fff;
+}
